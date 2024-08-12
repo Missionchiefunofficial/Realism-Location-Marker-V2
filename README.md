@@ -11,8 +11,26 @@
 
 ### **What is the Realism Location Marker?**
 
-It's a script that you can add to Tampermonkey that is added to the MissionChief game map on PC only you are able to select various values for example Police, Fire & Ambulance Stations (1 option at a time) V1.0 uses a reverse coding to return the address in a popup box but this has some bugs like fair usage and only 1 request per 5 seconds or not returning information as requested
+It's a script that you can add to Tampermonkey that is added to the MissionChief game map on PC only you are able to select various values for example Police, Fire & Ambulance Stations (1 option at a time) V2.0 uses a popup feature within the game map that shows you the postion and a clickable Google maps link, see below
 
 <p align="center">
   <img src="https://cdn.discordapp.com/attachments/950104187331567636/1272632858887979113/image.png?ex=66bbaf35&is=66ba5db5&hm=972cc60294f34ad82be4a2727adf7d79f7901158b9cdc8427bdb6d10960c0aad&" />
 </p> 
+
+When you click the link you will then be directed to Google maps and have the below, this will not give you the information yet as there is 2 more steps. see below.
+
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/950104187331567636/1272634712963158016/image.png?ex=66bbb0ef&is=66ba5f6f&hm=6e2eeb415174f496b463b489b132f6a2d8876cc37bc4fd75bc76046882c5341f&" />
+</p> 
+
+Where the pin is right click and then click on "Whats here?" see below.
+
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/950104187331567636/1272634826071081132/image.png?ex=66bbb10a&is=66ba5f8a&hm=c638e5558484a306ced2806a1d5fb32170bce11bc5e0a62cf3210db846e51d31&" />
+</p>
+
+When you have clicked "Whats here?" this should now give you the details as below.
+
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/950104187331567636/1272634924133908510/image.png?ex=66bbb122&is=66ba5fa2&hm=882935d44275449bbf7a875546428177944aa9acd7c7878ee470843ed2fde998&" />
+</p>
