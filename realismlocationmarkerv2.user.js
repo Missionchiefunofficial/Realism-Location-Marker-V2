@@ -29,7 +29,7 @@
 // @match        https://www.larmcentralen-spelet.se/*
 // @match        https://www.112-merkez.com/*
 // @require      https://github.com/tyrasd/osmtogeojson/raw/gh-pages/osmtogeojson.js
-// @downloadURL  https://github.com/Missionchiefunofficial/Realism-Location-Marker-V2
+// @downloadURL  https://github.com/Missionchiefunofficial/Realism-Location-Marker-V2.user.js
 // @icon         https://cdn.bio.link/uploads/profile_pictures/2022-12-09/qrE4a5hE1RbB5YUgunffc.gif
 // @grant        none
 // ==/UserScript==
