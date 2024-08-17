@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Building Locations "Realism Location Marker"
 // @namespace    www.missionchief-unofficial.com
-// @version      2.0
+// @version      2.1
 // @description  Displays Real locations in game map for players who want realism
 // @author       MissionChief Unofficial Team
-// @homepage     https://discord.gg/xqMw66EdPG
+// @homepage     https://missionchief-unofficial.com
 // @match        https://www.operacni-stredisko.cz/*
 // @match        https://www.alarmcentral-spil.dk/*
 // @match        https://www.leitstellenspiel.de/*
@@ -28,9 +28,10 @@
 // @match        https://www.dispecerske-centrum.com/*
 // @match        https://www.larmcentralen-spelet.se/*
 // @match        https://www.112-merkez.com/*
-// @require      https://github.com/tyrasd/osmtogeojson/raw/gh-pages/osmtogeojson.js
-// @downloadURL  https://github.com/Missionchiefunofficial/Realism-Location-Marker-V2.user.js
-// @icon         https://cdn.bio.link/uploads/profile_pictures/2022-12-09/qrE4a5hE1RbB5YUgunffc.gif
+// @require      https://github.com/Missionchiefunofficial/osmtogeojson/raw/gh-pages/osmtogeojson.js
+// @downloadURL  https://github.com/Missionchiefunofficial/Realism-Location-Marker-V2/raw/main/realismlocationmarkerv2.user.js
+// @updateURL    https://github.com/Missionchiefunofficial/Realism-Location-Marker-V2/raw/main/realismlocationmarkerv2.user.js
+// @icon         https://avatars.githubusercontent.com/u/170798253?s=400&u=f41df3f61e7c9381b488d8c7883af370e04d5ee6&v=4
 // @grant        none
 // ==/UserScript==
 
@@ -66,8 +67,11 @@
         { label: "Show Ambulance Station Locations", value: "emergency=ambulance_station" },
         { label: "Show Police Stations Locations", value: "amenity=police" },
         { label: "Show Hospital Locations", value: "amenity=hospital" },
+        { label: "Show Prison Locations", value: "amenity=prison" },
         { label: "Show Lifeguard Station Locations", value: "emergency=lifeguard" },
-        { label: "Show Dispatch Control Locations", value: "emergency=control_centre"}
+        { label: "Show Dispatch Control Locations", value: "emergency=control_centre" },
+        { label: "Show Disaster Response Locations", value: "emergency=disaster_response" },
+        { label: "Show Mountain Rescue Locations", value: "emergency=mountain_rescue" }
     ];
 
     poiTypes.forEach(function (poi) {
